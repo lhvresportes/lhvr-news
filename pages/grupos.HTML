@@ -7,75 +7,205 @@
     <title>Grupos</title>
 </head>
 <style>
-.tabela {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-  }
-  .tabela th, .tabela td {
-    border: 1px solid #000000;
-    padding: 8px;
-  }
-  .tabela tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  .negrito{
-    font-weight: bold;
-  }
-  .preto{
-    background-color: #ffffff;
-    padding: 20px;
-  }
+  table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #444;
+        }
 
-  
-  </style>
+        th, td {
+            text-align: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #222;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        @media only screen and (max-width: 600px) {
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+        .grupos{
+          text-align: center;
+        }
+</style>
 <body>
-    <table class="tabela">
-        <thead>
-          <tr>
-           <th> <h3 class="preto"> Grupo 1 </h3> </th>
+  <h1 class="grupos">Grupo 1</h1>
+  <table>
+  <thead>
+    <tr>
+      <th>Posição</th>
+      <th>Time</th>
+      <th>Pontos</th>
+      <th>Jogos</th>
+      <th>Vitórias</th>
+      <th>Empates</th>
+      <th>Derrotas</th>
+      <th>Gols Pró</th>
+      <th>Gols Solfridos</th>
+      <th>Saldo de Gols</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+              <td>1</td>
+              <td>Finanças 3</td>
+              <td>9</td>
+              <td>3</td>
+              <td>3</td>
+              <td>0</td>
+              <td>0</td>
+              <td>20</td>
+              <td>5</td>
+              <td>+15</td>
           </tr>
-        </thead>
-        <tbody>
           <tr>
-            <td class="negrito">Informática 1 </td>
+              <td>2</td>
+              <td>Segurança 3</td>
+              <td>6</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>4</td>
+              <td>4</td>
+              <td>+0</td>
           </tr>
           <tr>
-            <td class="negrito">Segurança 2 </td>
+              <td>3</td>
+              <td>Segurança 2</td>
+              <td>4</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>16</td>
+              <td>12</td>
+              <td>+4</td>
           </tr>
           <tr>
-            <td class="negrito">Finanças 2</td>
+              <td>4</td>
+              <td>Finanças 2</td>
+              <td>4</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>6</td>
+              <td>6</td>
+              <td>+0</td>
           </tr>
           <tr>
-            <td class="negrito">Finanças 3</td>
-          </tr>
-          <tr>
-            <td class="negrito">Segurança 3</td>
-          </tr>
-          <thead>
-            <tr>
-             <th> <h3 class="preto"> Grupo 2 </h3> </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="negrito">Agronegócio 1 </td>
-            </tr>
-            <tr>
-              <td class="negrito">Informática 3 </td>
-            </tr>
-            <tr>
-              <td class="negrito">Enfermagem (1,2,3 anos)</td>
-            </tr>
-            <tr>
-              <td class="negrito">Informática 2</td>
-            </tr>
-            <tr>
-              <td class="negrito">Finanças 1</td>
-            </tr>
-          <br>
+            <td>5</td>
+            <td>Informática 1</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>8</td>
+            <td>23</td>
+            <td>-15</td>
+        </tr>
         </tbody>
-      </table>
+        </table>
+        <hr>
+        
+        <h1 class="grupos">Grupo 2</h1>
+  <table>
+  <thead>
+    <tr>
+      <th>Posição</th>
+      <th>Time</th>
+      <th>Pontos</th>
+      <th>Jogos</th>
+      <th>Vitórias</th>
+      <th>Empates</th>
+      <th>Derrotas</th>
+      <th>Gols Pró</th>
+      <th>Gols Solfridos</th>
+      <th>Saldo de Gols</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+              <td>1</td>
+              <td>Informática 2</td>
+              <td>9</td>
+              <td>3</td>
+              <td>3</td>
+              <td>0</td>
+              <td>0</td>
+              <td>17</td>
+              <td>5</td>
+              <td>+15</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Enfermagem</td>
+              <td>7</td>
+              <td>4</td>
+              <td>2</td>
+              <td>1</td>
+              <td>1</td>
+              <td>17</td>
+              <td>9</td>
+              <td>+8</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>Finanças 1</td>
+              <td>4</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>10</td>
+              <td>7</td>
+              <td>+3</td>
+          </tr>
+          <tr>
+              <td>4</td>
+              <td>Informática 3</td>
+              <td>1</td>
+              <td>4</td>
+              <td>0</td>
+              <td>1</td>
+              <td>3</td>
+              <td>6</td>
+              <td>17</td>
+              <td>-11</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Agronegócio 1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>18</td>
+            <td>-16</td>
+        </tr>
+        </tbody>
+        </table>
+        <hr>
 </body>
 </html>
