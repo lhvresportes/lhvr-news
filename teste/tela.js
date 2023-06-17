@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let hours = document.querySelector('.hours');
     let minutes = document.querySelector('.minutes');
     let seconds = document.querySelector('.seconds');
-    const start = new Date('2023-06-15 12:00:00Z').getTime();
+    const start = new Date('2023-06-22 12:00:00Z').getTime();
 
     function time() {
         requestAnimationFrame(time);
